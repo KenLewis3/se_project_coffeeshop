@@ -3,11 +3,6 @@
   padding: 30px 80px 40px;
   background: center / cover no-repeat #ffffff
     url(../images/background_header.svg);
-  /* background-color: #ffffff;
-  background-image: url(../images/background_header.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -33,8 +28,6 @@
   max-width: 683px;
   margin: 28px 0 0;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-weight: normal;
-  font-style: normal;
   font-size: 20px;
   line-height: 30px;
 }
@@ -57,7 +50,7 @@
 
 .header__paragraph {
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
